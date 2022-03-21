@@ -1,0 +1,19 @@
+.bandeau {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+  border-bottom: 1.5px solid #746363;
+  padding-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: #746363;
+  padding: 5px;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+}
+a:hover {
+  color: #e1442a;
+}
